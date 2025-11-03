@@ -111,7 +111,7 @@ This project is open source and available for personal use.
 
 **Edou Mota**
 - LinkedIn: [@edou-mota](https://www.linkedin.com/in/edou-mota-b6489a27/)
-- GitHub: [@TheDu](https://github.com/TheDu)
+- GitHub: [@TheDuGuy](https://github.com/TheDuGuy)
 - Email: edou.mota@me.com
 
 ---

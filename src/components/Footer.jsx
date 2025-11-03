@@ -31,7 +31,7 @@ const Footer = () => {
             className="flex gap-4"
           >
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/edou-mota-b6489a27/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full glass-effect flex items-center justify-center hover:bg-white/10 transition-all duration-200 group"
@@ -39,7 +39,7 @@ const Footer = () => {
               <FaLinkedin className="text-xl text-gray-300 group-hover:text-blue-400 transition-colors" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/TheDuGuy"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full glass-effect flex items-center justify-center hover:bg-white/10 transition-all duration-200 group"
@@ -47,7 +47,7 @@ const Footer = () => {
               <FaGithub className="text-xl text-gray-300 group-hover:text-purple-400 transition-colors" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://www.linkedin.com/in/edou-mota-b6489a27/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full glass-effect flex items-center justify-center hover:bg-white/10 transition-all duration-200 group"

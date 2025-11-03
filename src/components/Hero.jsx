@@ -80,7 +80,7 @@ const Hero = () => {
             <FaLinkedin className="text-2xl text-gray-300 group-hover:text-blue-400 transition-colors" />
           </a>
           <a
-            href="https://github.com/TheDu"
+            href="https://github.com/TheDuGuy"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-full glass-effect flex items-center justify-center hover:bg-white/10 transition-all duration-200 group"
