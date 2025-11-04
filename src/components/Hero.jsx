@@ -45,8 +45,8 @@ const Hero = () => {
           transition={{ delay: 0.6 }}
           className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8"
         >
-          Passionate about building products that drive business growth and deliver exceptional user experiences.
-          Expert in product marketing, go-to-market strategy, and cross-functional collaboration.
+          I turn customer data into meaningful conversations. With 10+ years building lifecycle campaigns for brands like Shopify and M&S,
+          I specialize in marketing automation that drives engagement, retention, and growth—backed by clean code and thoughtful strategy.
         </motion.p>
 
         <motion.div
