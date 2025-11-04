@@ -63,7 +63,7 @@ const Contact = () => {
       >
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
           <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Get In Touch
+            Get in touch
           </span>
         </h2>
         <p className="text-gray-400 text-center mb-12">

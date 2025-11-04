@@ -47,11 +47,11 @@ const AboutMe = () => {
                 href="https://www.google.com/maps/place/São+Tomé+and+Príncipe"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-green-400 font-semibold hover:text-green-300 underline decoration-dotted transition-colors"
+                className="text-blue-400 font-semibold hover:text-green-300 underline decoration-dotted transition-colors"
               >
                 São Tomé and Príncipe 🏝️
               </a>
-              , raised in the vibrant city of <span className="text-red-400 font-semibold">Lisbon, Portugal</span>,
+              , raised in the vibrant city of <span className="text-blue-400 font-semibold">Lisbon, Portugal</span>,
               and now calling the <span className="text-blue-400 font-semibold">United Kingdom</span> home.
               This multicultural background has shaped my perspective and approach to building
               products that resonate with diverse audiences across the globe.
@@ -62,7 +62,7 @@ const AboutMe = () => {
           <div>
             <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
               <span className="text-3xl">✨</span>
-              When I'm Not Working
+              When I'm not working...
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {interests.map((interest, index) => (
