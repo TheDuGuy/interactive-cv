@@ -80,7 +80,7 @@ const Projects = () => {
         'Fully responsive design with mobile support'
       ],
       liveUrl: 'https://email-sequence-visualiser.vercel.app',
-      githubUrl: 'https://github.com/TheDuGuy/email-sequence-visualiser'
+      githubUrl: 'https://github.com/TheDuGuy/email-sequence-visualiser-'
     }
   ];
 
