@@ -26,44 +26,44 @@ const SkillCard = ({ skill, index }) => {
 const Skills = () => {
   const skills = [
     {
-      name: 'Storytelling',
-      emoji: '📖',
-      description: 'Crafting compelling narratives that engage audiences and communicate complex concepts through cohesive stories.'
+      name: 'Marketing Automation',
+      emoji: '⚡',
+      description: 'Expert in SFMC, HubSpot, SendGrid with deep knowledge of Journey Builder, Automation Studio, and triggered campaigns.'
     },
     {
-      name: 'Technical Copywriting',
-      emoji: '✍️',
-      description: 'Creating clear, impactful technical content that bridges the gap between developers and stakeholders.'
+      name: 'Email Campaign Management',
+      emoji: '📧',
+      description: 'Managed 9M+ merchant programs and 2M+ subscriber campaigns with advanced personalization and optimization.'
     },
     {
-      name: 'Cross-functional Communication',
-      emoji: '👥',
-      description: 'Operating at the intersection of marketing, sales, product, and customer success to drive alignment.'
-    },
-    {
-      name: 'Problem Solving',
-      emoji: '💡',
-      description: 'Breaking down complex challenges and developing innovative solutions quickly and effectively.'
-    },
-    {
-      name: 'User Advocacy',
-      emoji: '📢',
-      description: 'Understanding and championing user needs, ensuring products solve real problems for customers.'
-    },
-    {
-      name: 'Coding (CSS, HTML, JS, Python)',
+      name: 'Technical Implementation',
       emoji: '💻',
-      description: 'Hands-on technical skills to understand product pain points and position solutions effectively.'
+      description: 'Proficient in HTML, CSS, JavaScript, SQL, AMPscript, and Liquid for dynamic email templates and data workflows.'
     },
     {
-      name: 'Market & Competitor Analysis',
+      name: 'Lifecycle Marketing',
+      emoji: '🔄',
+      description: 'Designing customer journeys across onboarding, engagement, retention, and win-back stages.'
+    },
+    {
+      name: 'Data & Analytics',
       emoji: '📊',
-      description: 'Leading market research to identify opportunities and understand competitive positioning.'
+      description: 'SQL query writing, BigQuery analysis, behavioral segmentation, and A/B testing frameworks.'
+    },
+    {
+      name: 'CRM Strategy',
+      emoji: '🎯',
+      description: 'Building audience segments, personalization strategies, and multi-channel campaign orchestration.'
+    },
+    {
+      name: 'Cross-functional Collaboration',
+      emoji: '👥',
+      description: 'Operating at the intersection of UX, product, data science, and experimentation teams.'
     },
     {
       name: 'Project Management',
       emoji: '📋',
-      description: 'Managing complex initiatives with diligence and laser-focused project management skills.'
+      description: 'Managing complex initiatives with Jira, coordinating stakeholders, and delivering results on time.'
     }
   ];
 
@@ -82,7 +82,7 @@ const Skills = () => {
           </span>
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto">
-          A diverse skill set combining technical expertise, strategic thinking, and exceptional communication
+          Combining marketing automation expertise, technical implementation, and data-driven strategy
         </p>
       </motion.div>
 
