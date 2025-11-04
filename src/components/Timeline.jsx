@@ -25,25 +25,19 @@ const TimelineItem = ({ experience, index }) => {
             </div>
           </div>
           <p className="text-gray-400 text-sm mb-3">{experience.period}</p>
-          <ul className={`space-y-2 text-gray-300 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
-            {experience.highlights.map((highlight, i) => (
-              <li key={i} className="text-sm leading-relaxed">
-                {highlight}
-              </li>
-            ))}
-          </ul>
-          {experience.achievements && (
-            <div className="mt-4">
-              <p className="text-purple-400 font-semibold mb-2">Key Achievements:</p>
-              <ul className={`space-y-1 text-gray-300 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
-                {experience.achievements.map((achievement, i) => (
-                  <li key={i} className="text-sm">
-                    {achievement}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+          <div className={`text-gray-300 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
+            <p className="text-sm leading-relaxed mb-3">
+              {experience.description}
+            </p>
+            {experience.achievements && (
+              <div className="mt-4">
+                <p className="text-purple-400 font-semibold mb-2">Key Achievements:</p>
+                <p className="text-sm leading-relaxed text-gray-300">
+                  {experience.achievements}
+                </p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
@@ -67,71 +61,34 @@ const Timeline = () => {
       title: 'Senior Growth Marketer / Marketing Automation',
       company: 'Shopify Inc.',
       period: '2020 - 2025',
-      highlights: [
-        'Managed email marketing automation program for 9M+ merchant base using SFMC, HubSpot, and SendGrid',
-        'Initially focused on strategic initiatives within Product Sourcing team for Handshake and Oberlo',
-        'Developed dynamic email templates and automated journeys using Liquid, HTML, CSS, JavaScript, SQL, and AMPscript',
-        'Collaborated with UX, lifecycle marketing, data science, and experimentation teams'
-      ],
-      achievements: [
-        'Built industry-leading email marketing campaigns',
-        'Implemented A/B and multivariate testing frameworks',
-        'Partnered with data science to build behavioral scoring models'
-      ]
+      description: 'Managed email marketing automation program for 9M+ merchant base using SFMC, HubSpot, and SendGrid, analyzing customer behavioral data to identify lifecycle triggers and optimize automated campaign performance across the customer journey. Initially focused on strategic initiatives within Product Sourcing team, driving B2B product projects from ideation to execution for Handshake (wholesale platform) and Oberlo (dropshipping app). Developed dynamic email templates and automated journeys using Liquid, HTML, CSS, JavaScript, SQL, and AMPscript, collaborating cross-functionally with UX, lifecycle marketing, data science, and experimentation teams to ensure operational excellence.',
+      achievements: 'Built industry-leading email marketing campaigns with A/B and multivariate testing frameworks. Partnered with data science team to build behavioral scoring models and segmentation strategies, writing SQL queries in BigQuery to extract and analyze merchant lifecycle data.'
     },
     {
       title: 'CRM Email Manager',
       company: 'M&S (Marks & Spencer)',
       period: '2019 - 2020',
-      highlights: [
-        'Delivered 15+ email campaigns weekly to 2M+ subscribers using Salesforce Marketing Cloud',
-        'Managed campaigns across Food, Clothing & Home, and Beauty divisions',
-        'Implemented cross-client testing (Litmus), real-time personalization (LiveClicker), and AI optimization (Phrasee)',
-        'Increased engagement through advanced personalization with AMPscript'
-      ],
-      achievements: [
-        'Built automated workflows in Automation Studio',
-        'Sustained 95%+ inbox placement rate',
-        'Coordinated cross-functional deliverables via Jira'
-      ]
+      description: 'Delivered 15+ email campaigns weekly to 2M+ subscribers using Salesforce Marketing Cloud, managing complex campaign calendar across Food, Clothing & Home, and Beauty divisions. Led technical implementation of cross-client testing (Litmus), real-time personalization (LiveClicker), and AI-powered subject line optimization (Phrasee). Increased email engagement by implementing advanced personalization with AMPscript and dynamic content blocks, collaborating with data agency Planning Inc on audience segmentation and targeting strategies.',
+      achievements: 'Built automated workflows in Automation Studio including file imports, SQL queries, and data extensions management, reducing manual work by 40%. Sustained 95%+ inbox placement rate through list hygiene, suppression management, and ISP feedback loop monitoring. Coordinated cross-functional deliverables using Jira for seamless execution and reporting.'
     },
     {
       title: 'Marketing Automation Specialist',
       company: 'Pitney Bowes',
       period: '2016 - 2019',
-      highlights: [
-        'Developed customer onboarding automation programs using SFMC',
-        'Led technical implementation of demand creation and lead nurturing programs',
-        'Implemented A/B and multivariate testing frameworks',
-        'Documented processes and provided team training on SFMC capabilities'
-      ],
-      achievements: [
-        'Contributed to 15% improvement in D30 activation metrics',
-        'Improved open rates (+12%), CTR (+18%), and conversion rates (+9%)',
-        'Ensured GDPR and CAN-SPAM compliance'
-      ]
+      description: 'Developed customer onboarding automation programs using SFMC, reducing time-to-value and improving product adoption rates. Led technical conceptualization and implementation of demand creation and lead nurturing programs, including end-to-end lead management for customer and prospect segments. Implemented A/B and multivariate testing frameworks to optimize campaign performance across email creative, subject lines, send times, and audience segments.',
+      achievements: 'Contributed to 15% improvement in D30 activation metrics through multi-touch welcome series. Improved open rates (+12%), CTR (+18%), and conversion rates (+9%) through data-driven testing. Documented marketing automation processes and provided training to marketing team members on SFMC capabilities.'
     },
     {
       title: 'Campaign Manager',
       company: 'Terradata / Mapp',
       period: '2015 - 2016',
-      highlights: [
-        'Implemented CRM campaigns across email, mobile push, and SMS platforms',
-        'Worked closely with clients at their offices on bi-weekly basis',
-        'Analyzed campaign results and made data-driven recommendations',
-        'Supported clients in developing long-term CRM strategies'
-      ]
+      description: 'Implemented CRM campaigns across email, mobile push, and SMS platforms using Mapp (formerly Teradata Marketing Applications), achieving high levels of customer engagement for retail and eCommerce clients. Worked closely with clients at their offices on bi-weekly basis, identifying trends in campaign performance and recommending data-driven optimizations. Analyzed campaign results regularly using platform analytics and Google Analytics, supporting clients in developing long-term CRM strategies and lifecycle marketing frameworks.'
     },
     {
       title: 'Senior Account Executive',
       company: 'Experian Cross Channel Marketing',
       period: '2013 - 2015',
-      highlights: [
-        'Collaborated in high-level strategy meetings for enterprise clients',
-        'Developed email marketing campaigns across multiple platforms',
-        'Managed accounts including RBS, Emirates, Mamas & Papas',
-        'Built strong client relationships through data-driven recommendations'
-      ]
+      description: 'Collaborated with clients and account managers in high-level strategy meetings to develop long-term marketing strategies for enterprise accounts including RBS, Emirates, and Mamas & Papas. Developed email marketing campaigns across multiple cross-channel marketing platforms with engaging online content. Managed multiple accounts serving as primary point of contact for campaign execution and strategic consultation, building strong client relationships through responsive service and data-driven recommendations.'
     }
   ];
 
