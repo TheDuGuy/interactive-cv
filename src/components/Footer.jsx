@@ -19,7 +19,7 @@ const Footer = () => {
              Edou Mota
             </h3>
             <p className="text-gray-400 text-sm">
-              Building products that make a difference
+              Marketing Automation Specialist | CRM & Lifecycle Marketing Expert
             </p>
           </motion.div>
 
