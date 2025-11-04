@@ -46,7 +46,7 @@ const Navigation = () => {
                 </motion.a>
               ))}
               <motion.a
-                href="/Handshake - CV.pdf"
+                href="/Edou_Mota_CV.pdf"
                 download
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -90,7 +90,7 @@ const Navigation = () => {
               </a>
             ))}
             <a
-              href="/Handshake - CV.pdf"
+              href="/Edou_Mota_CV.pdf"
               download
               className="block px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg text-center hover:from-blue-600 hover:to-purple-700 transition-all duration-200"
             >
