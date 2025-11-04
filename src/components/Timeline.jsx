@@ -64,68 +64,73 @@ const TimelineItem = ({ experience, index }) => {
 const Timeline = () => {
   const experiences = [
     {
-      title: 'Senior Product Marketing Manager',
-      company: 'Handshake',
-      period: 'Aug 2020 - Present',
+      title: 'Senior Growth Marketer / Marketing Automation',
+      company: 'Shopify Inc.',
+      period: '2020 - 2025',
       highlights: [
-        'Drive demand and quality supply side adoption of the marketplace',
-        'Feed superior understanding of users into the product development process',
-        'Beat competition of traditional wholesalers and marketplaces',
-        'Build on Handshake\'s brand through best-in-class content and events'
+        'Managed email marketing automation program for 9M+ merchant base using SFMC, HubSpot, and SendGrid',
+        'Initially focused on strategic initiatives within Product Sourcing team for Handshake and Oberlo',
+        'Developed dynamic email templates and automated journeys using Liquid, HTML, CSS, JavaScript, SQL, and AMPscript',
+        'Collaborated with UX, lifecycle marketing, data science, and experimentation teams'
       ],
       achievements: [
-        'Successfully drove marketplace adoption',
-        'Developed comprehensive go-to-market strategies',
-        'Led cross-functional teams to deliver key initiatives'
+        'Built industry-leading email marketing campaigns',
+        'Implemented A/B and multivariate testing frameworks',
+        'Partnered with data science to build behavioral scoring models'
       ]
     },
     {
-      title: 'Product Marketing Lead',
-      company: 'Contiamo',
-      period: 'Apr 2018 - Jun 2020',
+      title: 'CRM Email Manager',
+      company: 'M&S (Marks & Spencer)',
+      period: '2019 - 2020',
       highlights: [
-        'Set up Contiamo\'s product marketing function from scratch',
-        'Worked at the intersection between product development, sales, and marketing',
-        'Responsible for shaping product direction and communication',
-        'Brought insights from customer feedback and market research'
+        'Delivered 15+ email campaigns weekly to 2M+ subscribers using Salesforce Marketing Cloud',
+        'Managed campaigns across Food, Clothing & Home, and Beauty divisions',
+        'Implemented cross-client testing (Litmus), real-time personalization (LiveClicker), and AI optimization (Phrasee)',
+        'Increased engagement through advanced personalization with AMPscript'
       ],
       achievements: [
-        'Established product marketing framework',
-        'Grew team from 15 to 35 people',
-        'Launched multiple successful product campaigns'
+        'Built automated workflows in Automation Studio',
+        'Sustained 95%+ inbox placement rate',
+        'Coordinated cross-functional deliverables via Jira'
       ]
     },
     {
-      title: 'Senior Marketing Manager',
-      company: 'Contiamo',
-      period: 'Aug 2017 - Apr 2018',
+      title: 'Marketing Automation Specialist',
+      company: 'Pitney Bowes',
+      period: '2016 - 2019',
       highlights: [
-        'Developed Contiamo\'s marketing strategy during growth phase',
-        'Responsible for all marketing and website content design',
-        'Developed written content and product release comms',
-        'Detailed platform complexity for easy consumption'
+        'Developed customer onboarding automation programs using SFMC',
+        'Led technical implementation of demand creation and lead nurturing programs',
+        'Implemented A/B and multivariate testing frameworks',
+        'Documented processes and provided team training on SFMC capabilities'
+      ],
+      achievements: [
+        'Contributed to 15% improvement in D30 activation metrics',
+        'Improved open rates (+12%), CTR (+18%), and conversion rates (+9%)',
+        'Ensured GDPR and CAN-SPAM compliance'
       ]
     },
     {
-      title: 'Customer Solutions Architect',
-      company: 'Cisco',
-      period: 'Mar 2017 - Aug 2017',
+      title: 'Campaign Manager',
+      company: 'Terradata / Mapp',
+      period: '2015 - 2016',
       highlights: [
-        'Responsible for selling, managing, and delivering bespoke data science-driven solutions',
-        'Combined strategic thinking with customers',
-        'Managed data science or engineering resources',
-        'Delivered projects efficiently'
+        'Implemented CRM campaigns across email, mobile push, and SMS platforms',
+        'Worked closely with clients at their offices on bi-weekly basis',
+        'Analyzed campaign results and made data-driven recommendations',
+        'Supported clients in developing long-term CRM strategies'
       ]
     },
     {
-      title: 'Project Manager, Digital Strategy',
-      company: 'Cisco',
-      period: 'Jun 2015 - Mar 2017',
+      title: 'Senior Account Executive',
+      company: 'Experian Cross Channel Marketing',
+      period: '2013 - 2015',
       highlights: [
-        'Specialized in innovative technologies that enable Cisco\'s sales team',
-        'Scouted innovative startups and ran proof-of-concepts',
-        'Managed major transitional projects in account management and sales forecasting',
-        'Contributed to Cisco\'s digital sales strategy development'
+        'Collaborated in high-level strategy meetings for enterprise clients',
+        'Developed email marketing campaigns across multiple platforms',
+        'Managed accounts including RBS, Emirates, Mamas & Papas',
+        'Built strong client relationships through data-driven recommendations'
       ]
     }
   ];
