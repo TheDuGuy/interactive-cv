@@ -47,7 +47,7 @@ const Footer = () => {
               <FaGithub className="text-xl text-gray-300 group-hover:text-purple-400 transition-colors" />
             </a>
             <a
-              href="https://www.linkedin.com/in/edou-mota-b6489a27/"
+              href="https://x.com/EdouEsSanto"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full glass-effect flex items-center justify-center hover:bg-white/10 transition-all duration-200 group"
