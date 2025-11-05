@@ -10,7 +10,7 @@ A modern, animated personal portfolio website built with React, featuring smooth
 
 - **Smooth Animations** - Powered by Framer Motion for engaging scroll-triggered animations
 - **Glassmorphism UI** - Modern glass-effect design with gradient accents
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
+- **Fully Responsive** - Optimised for all devices from mobile to desktop
 - **Working Contact Form** - Integrated with Formspree for real message submissions
 - **Interactive Timeline** - Visual journey through professional experience
 - **Skills Showcase** - Dynamic skill cards with hover effects
@@ -61,9 +61,9 @@ interactive-cv/
 └── ...config files
 ```
 
-## 🎨 Customization
+## 🎨 Customisation
 
-To personalize this CV for your own use:
+To personalise this CV for your own use:
 
 1. **Update personal information** in `src/components/Hero.jsx`
 2. **Add your experience** in `src/components/Timeline.jsx`
