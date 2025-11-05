@@ -33,7 +33,7 @@ const Skills = () => {
     {
       name: 'Email Campaign Management',
       emoji: '📧',
-      description: 'Managed 9M+ merchant programs and 2M+ subscriber campaigns with advanced personalization and optimization.'
+      description: 'Managed 9M+ merchant programs and 2M+ subscriber campaigns with advanced personalisation and optimisation.'
     },
     {
       name: 'Technical Implementation',
@@ -48,12 +48,12 @@ const Skills = () => {
     {
       name: 'Data & Analytics',
       emoji: '📊',
-      description: 'SQL query writing, BigQuery analysis, behavioral segmentation, and A/B testing frameworks.'
+      description: 'SQL query writing, BigQuery analysis, behavioural segmentation, and A/B testing frameworks.'
     },
     {
       name: 'CRM Strategy',
       emoji: '🎯',
-      description: 'Building audience segments, personalization strategies, and multi-channel campaign orchestration.'
+      description: 'Building audience segments, personalisation strategies, and multi-channel campaign orchestration.'
     },
     {
       name: 'Cross-functional Collaboration',
