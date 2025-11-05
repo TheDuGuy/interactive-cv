@@ -83,6 +83,21 @@ const Projects = () => {
       githubUrl: 'https://github.com/TheDuGuy/email-sequence-visualiser-'
     },
     {
+      title: 'GTM Strategy Generator',
+      tech: 'React, Tailwind CSS, Vite',
+      description: 'Interactive tool for generating personalized go-to-market strategies based on product type, target market, and business goals. Provides positioning statements, ICP definitions, channel recommendations, and phased execution plans.',
+      features: [
+        'Step-by-step questionnaire for product and market insights',
+        'AI-powered positioning statement generation',
+        'Detailed ICP profiles with decision-makers and sales cycles',
+        'Channel recommendations based on budget and target market',
+        'Tactical playbooks aligned with primary business goals',
+        'Exportable strategy documents for team collaboration'
+      ],
+      liveUrl: 'https://gtm-strategy-generator.vercel.app',
+      githubUrl: 'https://github.com/TheDuGuy/gtm-strategy-generator'
+    },
+    {
       title: 'Lead Scoring Calculator',
       tech: 'React, Tailwind CSS, Vite',
       description: 'An interactive tool for calculating and visualizing lead scores based on multiple criteria including engagement, demographics, and company fit. Helps sales and marketing teams prioritize their pipeline.',
