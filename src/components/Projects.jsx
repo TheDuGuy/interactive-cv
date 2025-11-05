@@ -70,7 +70,7 @@ const Projects = () => {
     {
       title: 'Multi-Channel Automation Flow Builder',
       tech: 'React, React Flow, Tailwind CSS, Vite',
-      description: 'A visual workflow builder for designing email, SMS, and push notification sequences with drag-and-drop functionality. Built to help marketing teams plan and visualize complex multi-channel campaigns.',
+      description: 'A visual workflow builder for designing email, SMS, and push notification sequences with drag-and-drop functionality. Built to help marketing teams plan and visualise complex multi-channel campaigns.',
       features: [
         'Drag-and-drop interface with FigJam-inspired UI design',
         'Support for email, SMS, push notifications, and wait/delay nodes',
@@ -85,7 +85,7 @@ const Projects = () => {
     {
       title: 'GTM Strategy Generator',
       tech: 'React, Tailwind CSS, Vite',
-      description: 'Interactive tool for generating personalized go-to-market strategies based on product type, target market, and business goals. Provides positioning statements, ICP definitions, channel recommendations, and phased execution plans.',
+      description: 'Interactive tool for generating personalised go-to-market strategies based on product type, target market, and business goals. Provides positioning statements, ICP definitions, channel recommendations, and phased execution plans.',
       features: [
         'Step-by-step questionnaire for product and market insights',
         'AI-powered positioning statement generation',
@@ -100,11 +100,11 @@ const Projects = () => {
     {
       title: 'Lead Scoring Calculator',
       tech: 'React, Tailwind CSS, Vite',
-      description: 'An interactive tool for calculating and visualizing lead scores based on multiple criteria including engagement, demographics, and company fit. Helps sales and marketing teams prioritize their pipeline.',
+      description: 'An interactive tool for calculating and visualising lead scores based on multiple criteria including engagement, demographics, and company fit. Helps sales and marketing teams prioritise their pipeline.',
       features: [
         'Multi-dimensional scoring across engagement, demographics, and company fit',
         'Real-time score calculation with visual feedback',
-        'Color-coded priority indicators (hot, warm, cold)',
+        'Colour-coded priority indicators (hot, warm, cold)',
         'Detailed breakdown of scoring components',
         'Clean, intuitive interface for quick lead assessment',
         'Fully responsive design'
@@ -113,12 +113,12 @@ const Projects = () => {
       githubUrl: 'https://github.com/TheDuGuy/lead-scoring-calculator'
     },
     {
-      title: 'A/B Test Analyzer',
+      title: 'A/B Test Analyser',
       tech: 'React, Recharts, Tailwind CSS, Vite',
       description: 'Statistical analysis tool for A/B tests with confidence intervals, significance testing, and visual comparison. Built to help product managers and marketers make data-driven decisions with confidence.',
       features: [
         'Statistical significance testing with p-value calculations',
-        'Confidence interval visualization',
+        'Confidence interval visualisation',
         'Relative uplift and conversion rate comparisons',
         'Interactive charts showing test performance',
         'Sample size recommendations',
@@ -130,12 +130,12 @@ const Projects = () => {
     {
       title: 'Customer Journey Map',
       tech: 'React, Tailwind CSS, Vite',
-      description: 'Interactive visualization tool for mapping and analyzing customer journeys with touchpoints, pain points, and opportunities. Helps teams understand and optimize the end-to-end customer experience.',
+      description: 'Interactive visualisation tool for mapping and analysing customer journeys with touchpoints, pain points, and opportunities. Helps teams understand and optimise the end-to-end customer experience.',
       features: [
         'Visual journey mapping across multiple stages',
         'Track touchpoints, emotions, and pain points',
         'Identify opportunities for improvement',
-        'Customizable journey stages and phases',
+        'Customisable journey stages and phases',
         'Export and share journey maps',
         'Real-time editing and updates'
       ],
