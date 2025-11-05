@@ -81,6 +81,51 @@ const Projects = () => {
       ],
       liveUrl: 'https://email-sequence-visualiser.vercel.app',
       githubUrl: 'https://github.com/TheDuGuy/email-sequence-visualiser-'
+    },
+    {
+      title: 'Lead Scoring Calculator',
+      tech: 'React, Tailwind CSS, Vite',
+      description: 'An interactive tool for calculating and visualizing lead scores based on multiple criteria including engagement, demographics, and company fit. Helps sales and marketing teams prioritize their pipeline.',
+      features: [
+        'Multi-dimensional scoring across engagement, demographics, and company fit',
+        'Real-time score calculation with visual feedback',
+        'Color-coded priority indicators (hot, warm, cold)',
+        'Detailed breakdown of scoring components',
+        'Clean, intuitive interface for quick lead assessment',
+        'Fully responsive design'
+      ],
+      liveUrl: 'https://lead-scoring-calculator-swart.vercel.app',
+      githubUrl: 'https://github.com/TheDuGuy/lead-scoring-calculator'
+    },
+    {
+      title: 'A/B Test Analyzer',
+      tech: 'React, Recharts, Tailwind CSS, Vite',
+      description: 'Statistical analysis tool for A/B tests with confidence intervals, significance testing, and visual comparison. Built to help product managers and marketers make data-driven decisions with confidence.',
+      features: [
+        'Statistical significance testing with p-value calculations',
+        'Confidence interval visualization',
+        'Relative uplift and conversion rate comparisons',
+        'Interactive charts showing test performance',
+        'Sample size recommendations',
+        'Clear visual indicators for test conclusions'
+      ],
+      liveUrl: 'https://ab-test-analyzer-brown.vercel.app',
+      githubUrl: 'https://github.com/TheDuGuy/ab-test-analyzer'
+    },
+    {
+      title: 'Customer Journey Map',
+      tech: 'React, Tailwind CSS, Vite',
+      description: 'Interactive visualization tool for mapping and analyzing customer journeys with touchpoints, pain points, and opportunities. Helps teams understand and optimize the end-to-end customer experience.',
+      features: [
+        'Visual journey mapping across multiple stages',
+        'Track touchpoints, emotions, and pain points',
+        'Identify opportunities for improvement',
+        'Customizable journey stages and phases',
+        'Export and share journey maps',
+        'Real-time editing and updates'
+      ],
+      liveUrl: 'https://customer-journey-map-two.vercel.app',
+      githubUrl: 'https://github.com/TheDuGuy/customer-journey-map'
     }
   ];
 
