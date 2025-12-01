@@ -46,19 +46,14 @@ const Skills = () => {
       description: 'Building multilingual, highly personalised journeys in SFMC using AMPscript, Liquid, and dynamic content—rendered automatically in each customer\'s preferred language and region.'
     },
     {
-      name: 'Lifecycle Marketing',
-      emoji: '🔄',
-      description: 'Designing customer journeys across onboarding, engagement, retention, and win-back stages.'
+      name: 'CRM & Lifecycle Strategy',
+      emoji: '🎯',
+      description: 'Building multi-channel customer journeys across onboarding, engagement, retention, and win-back, supported by audience segmentation and personalisation strategy.'
     },
     {
       name: 'Data & Analytics',
       emoji: '📊',
       description: 'SQL query writing, BigQuery analysis, behavioural segmentation, and A/B testing frameworks.'
-    },
-    {
-      name: 'CRM Strategy',
-      emoji: '🎯',
-      description: 'Building audience segments, personalisation strategies, and multi-channel campaign orchestration.'
     },
     {
       name: 'Cross-functional Collaboration',
