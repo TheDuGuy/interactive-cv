@@ -36,17 +36,16 @@ const Hero = () => {
           transition={{ delay: 0.5 }}
           className="text-2xl md:text-3xl text-gray-300 mb-6"
         >
-          Senior Growth Marketer, Marketing Automation Manager
+          Senior CRM & Marketing Automation Leader
         </motion.h2>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
-          className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8"
+          className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 leading-relaxed"
         >
-          I turn customer data into meaningful conversations. With 10+ years building lifecycle campaigns for brands like Shopify and M&S,
-          I specialize in marketing automation that drives engagement, retention, and growth—backed by clean code and thoughtful strategy.
+          I turn customer data into meaningful, revenue-driving conversations. With 10+ years leading lifecycle programs for brands like Shopify and M&S, I specialise in CRM and marketing automation that improves activation, engagement, and retention—powered by SFMC, SQL, Liquid, AMPscript, and highly personalised, multilingual journeys.
         </motion.p>
 
         <motion.div

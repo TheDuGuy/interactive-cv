@@ -41,6 +41,11 @@ const Skills = () => {
       description: 'Proficient in HTML, CSS, JavaScript, SQL, AMPscript, and Liquid for dynamic email templates and data workflows.'
     },
     {
+      name: 'Localisation & Dynamic Content',
+      emoji: '🌍',
+      description: 'Building multilingual, highly personalised journeys using SFMC, AMPscript, Liquid, and dynamic content blocks—automatically rendering experiences in each customer\'s preferred language, region, and lifecycle stage.'
+    },
+    {
       name: 'Lifecycle Marketing',
       emoji: '🔄',
       description: 'Designing customer journeys across onboarding, engagement, retention, and win-back stages.'

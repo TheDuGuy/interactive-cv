@@ -83,6 +83,26 @@ const Projects = () => {
       githubUrl: 'https://github.com/TheDuGuy/email-sequence-visualiser-'
     },
     {
+      title: 'Plus Content Syndication Nurture',
+      tech: 'Lifecycle Marketing · SFMC · Experimentation · Dynamic Content',
+      description: 'A global four-email nurture sequence for Shopify Plus content syndication leads, targeting 100K+ high-value C-suite/VP contacts annually. Built with fully localised, dynamic content tailored to each region.',
+      features: [
+        'Fully translated emails with region-specific case studies rendered via dynamic content',
+        '50/50 holdout experiment showing a 19% stat-sig lift in MQL conversion (p = 0.03)',
+        '28% open rate, 2% click-through rate and ~$950k projected influenced gross profit annually'
+      ]
+    },
+    {
+      title: 'Shipping Cross-Sell & Upsell Journeys',
+      tech: 'Lifecycle Marketing · SFMC · Personalisation · Holdout Testing',
+      description: 'A suite of six automated journeys (20+ emails) designed to drive adoption and expansion of Shopify shipping products across the merchant base.',
+      features: [
+        'Reached 100K+ merchants per month across key shipping behaviours',
+        'Journeys fully localised and personalised using AMPscript/Liquid and language preferences',
+        '"Shipping New Sellers" flow delivered a 4.31% lift in shipping label adoption in holdout testing'
+      ]
+    },
+    {
       title: 'GTM Strategy Generator',
       tech: 'React, Tailwind CSS, Vite',
       description: 'Interactive tool for generating personalised go-to-market strategies based on product type, target market, and business goals. Provides positioning statements, ICP definitions, channel recommendations, and phased execution plans.',

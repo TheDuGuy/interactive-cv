@@ -66,8 +66,11 @@ const Contact = () => {
             Get in touch
           </span>
         </h2>
-        <p className="text-gray-400 text-center mb-12">
+        <p className="text-gray-400 text-center mb-4">
           Have a question or want to work together? Drop me a message!
+        </p>
+        <p className="text-gray-300 text-center mb-12 text-sm">
+          Open to CRM & Lifecycle roles (permanent or contract), and marketing automation consulting.
         </p>
 
         {isSubmitted ? (
