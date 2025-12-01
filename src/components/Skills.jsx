@@ -43,7 +43,7 @@ const Skills = () => {
     {
       name: 'Localisation & Dynamic Content',
       emoji: '🌍',
-      description: 'Building multilingual, highly personalised journeys using SFMC, AMPscript, Liquid, and dynamic content blocks—automatically rendering experiences in each customer\'s preferred language, region, and lifecycle stage.'
+      description: 'Building multilingual, highly personalised journeys in SFMC using AMPscript, Liquid, and dynamic content—rendered automatically in each customer\'s preferred language and region.'
     },
     {
       name: 'Lifecycle Marketing',
