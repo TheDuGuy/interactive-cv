@@ -8,9 +8,9 @@ const caseStudiesData = [
     title: 'Building Shopify\'s Unified Email Platform',
     shortSummary: 'Leading the migration from a patchwork of parallel email systems to a unified internal platform that centralized communications, improved consistency, and empowered teams.',
     image: '/case-studies/hero_case_study.png',
-    imageAlt: 'Abstract visualization of multiple message streams merging into a unified communication hub.',
+    imageAlt: 'Abstract illustration showing multiple message streams flowing into a single unified communication platform.',
     metricsImage: '/case-studies/hero_key_metrics.png',
-    metricsImageAlt: 'Minimal abstract illustration showing performance uplift and system efficiency.',
+    metricsImageAlt: 'Minimal abstract graphic representing improved system performance and operational efficiency.',
     isHero: true,
     narrativeProblem: 'Shopify\'s communication ecosystem had grown organically over the years. Different teams were using Marketo, HubSpot, SendGrid, and several internal systems, which led to fragmented merchant experiences, no unified control over send frequency, and very limited visibility into what communications were being triggered across the company. The result was inconsistent branding and a lack of trust in the messaging infrastructure.',
     narrativeSolution: 'I collaborated closely with teams across CRM & Marketing Automation, Product, and Engineering to design and deliver a unified internal email platform. This included shaping the architecture for a centralized communication layer, introducing global send-frequency guardrails, and building reusable self-serve components to support scalable campaign development. I also led documentation, training, and office hours to onboard internal teams and guide the migration of existing lifecycle programs. We delivered an MVP in approximately eight months and continued expanding capabilities through rapid, real-world iteration.',
@@ -29,7 +29,7 @@ const caseStudiesData = [
     title: 'Revitalising the Shopify Payments Lifecycle',
     shortSummary: 'Redesigning the Payments lifecycle into a modular, behaviour-driven journey that guided merchants from awareness to activation, increasing trust and reducing friction at each stage.',
     image: '/case-studies/payments_lifecycle.png',
-    imageAlt: 'Placeholder - Payments Lifecycle image',
+    imageAlt: 'Abstract visualization of lifecycle paths and segmented customer journeys flowing across interconnected nodes.',
     intro: 'Shopify Payments is one of Shopify\'s highest-value products — but many merchants struggled to understand its benefits, navigate onboarding, or reach full activation. I redesigned the Payments lifecycle into a modular, behaviour-driven journey that guided merchants from awareness to activation, increasing trust and reducing friction at each stage.',
     problem: [
       'Merchants received one-size-fits-all messaging that didn\'t reflect readiness or compliance steps.',
@@ -60,7 +60,7 @@ const caseStudiesData = [
     title: 'Lifecycle Launch for Oberlo & Handshake',
     shortSummary: 'Creating the launch strategy and lifecycle programs for Oberlo and Handshake, improving awareness, adoption, and brand alignment.',
     image: '/case-studies/oberlo_handshake.png',
-    imageAlt: 'Abstract illustration of multi-step product onboarding and activation flows.',
+    imageAlt: 'Abstract illustration of multi-step onboarding and activation paths connecting through progressive stages.',
     problem: 'Both products launched without lifecycle foundations. Merchant awareness was low, branding inconsistent, and onboarding journeys nonexistent.',
     solution: [
       'Launch awareness campaigns',
@@ -81,7 +81,7 @@ const caseStudiesData = [
     title: 'Shopify Plus Content Syndication Nurture',
     shortSummary: 'A globally-localised nurture program for high-value Shopify Plus prospects, unlocking meaningful lift in MQL conversion across regions.',
     image: '/case-studies/plus_content_nurture.png',
-    imageAlt: 'Placeholder - Plus Content Syndication Nurture image',
+    imageAlt: 'Abstract illustration of global content distribution with region-specific nodes connected by flowing lines.',
     intro: 'The Content Syndication program brought in more than 100K high-value Plus leads annually, including C-suite and VP prospects. These leads were highly engaged but sat too early in the funnel to pass directly to Sales — and Shopify had no dedicated nurture experience for this segment. I led the design and execution of a unified, personalised nurture journey to maximise engagement, warm leads effectively, and better prepare them for Sales follow-up.',
     problem: [
       'Content Syndication generated 100K+ leads annually, but Shopify had no standalone nurture tailored to their needs.',
@@ -111,7 +111,7 @@ const caseStudiesData = [
     title: 'Shipping Cross-Sell & Upsell Lifecycle Journeys',
     shortSummary: 'A suite of six multilingual automated journeys reaching 100K+ merchants monthly and increasing adoption of Shopify Shipping features.',
     image: '/case-studies/shipping_lifecycle.png',
-    imageAlt: 'Placeholder - Shipping Lifecycle image',
+    imageAlt: 'Abstract illustration of shipping workflows with package-like shapes moving along connected arrows.',
     intro: 'Shipping behaviours varied significantly across Shopify\'s merchant ecosystem. While some merchants quickly adopted key features, others struggled to find or understand them — limiting activation and downstream revenue. I designed and led a suite of automated lifecycle journeys that guided merchants through their ideal shipping path, personalised by behaviour, maturity, and region.',
     problem: [
       'Shipping feature adoption differed widely across regions and merchant types.',
