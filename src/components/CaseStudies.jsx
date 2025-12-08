@@ -13,7 +13,7 @@ const caseStudiesData = [
     metricsImageAlt: 'Minimal abstract illustration showing performance uplift and system efficiency.',
     isHero: true,
     narrativeProblem: 'Shopify\'s communication ecosystem had grown organically over the years. Different teams were using Marketo, HubSpot, SendGrid, and several internal systems, which led to fragmented merchant experiences, no unified control over send frequency, and very limited visibility into what communications were being triggered across the company. The result was inconsistent branding and a lack of trust in the messaging infrastructure.',
-    narrativeSolution: 'I partnered with the CRM, Product, and Engineering organizations to design and deliver a unified internal email platform. This involved defining the architecture for a centralized communication layer, introducing global send-frequency guardrails, and building reusable self-serve components to support scalable campaign development. I also led documentation, training, and office hours to onboard internal teams and to support the migration of existing lifecycle programs. The project followed an iterative approach: we delivered an MVP in approximately eight months and continued to expand capabilities through rapid, real-world usage.',
+    narrativeSolution: 'I collaborated closely with teams across CRM & Marketing Automation, Product, and Engineering to design and deliver a unified internal email platform. This included shaping the architecture for a centralized communication layer, introducing global send-frequency guardrails, and building reusable self-serve components to support scalable campaign development. I also led documentation, training, and office hours to onboard internal teams and guide the migration of existing lifecycle programs. We delivered an MVP in approximately eight months and continued expanding capabilities through rapid, real-world iteration.',
     narrativeImpact: 'The unified platform significantly improved Shopify\'s lifecycle communication foundation. Merchant messaging became more consistent, message collisions were eliminated, and teams gained a reliable governance model with full visibility into outgoing communications. The new platform also accelerated operational workflow, enabling teams to launch campaigns faster and with higher confidence. This transformation laid critical groundwork for future personalization, governance, and experimentation at scale.',
     metrics: [
       'MVP delivered in ~8 months',
@@ -204,13 +204,8 @@ const CaseStudyCard = ({ caseStudy, index }) => {
                         </div>
                       </div>
 
-                      {/* Right Column - Image + Metrics */}
+                      {/* Right Column - Metrics */}
                       <div className="space-y-6 order-1 md:order-2">
-                        <img
-                          src={caseStudy.image}
-                          alt={caseStudy.imageAlt || caseStudy.title}
-                          className="w-full rounded-lg"
-                        />
                         <div className="bg-white/5 border border-white/10 rounded-xl p-5">
                           {caseStudy.metricsImage && (
                             <img
