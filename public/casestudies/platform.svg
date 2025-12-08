@@ -1,0 +1,39 @@
+<!-- Image Prompt: "Minimal illustration showing multiple communication channels converging into one unified workflow. Clean tech aesthetic, cool tones, geometric shapes." -->
+<svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gradP1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="gradP2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgP)"/>
+  <!-- Multiple sources converging -->
+  <rect x="40" y="50" width="40" height="30" rx="6" fill="url(#gradP1)" opacity="0.8"/>
+  <rect x="40" y="105" width="40" height="30" rx="6" fill="url(#gradP2)" opacity="0.8"/>
+  <rect x="40" y="160" width="40" height="30" rx="6" fill="url(#gradP1)" opacity="0.8"/>
+  <!-- Convergence lines -->
+  <path d="M85 65 Q150 65 180 120" stroke="url(#gradP1)" stroke-width="2" opacity="0.6"/>
+  <path d="M85 120 L180 120" stroke="url(#gradP2)" stroke-width="2" opacity="0.6"/>
+  <path d="M85 175 Q150 175 180 120" stroke="url(#gradP1)" stroke-width="2" opacity="0.6"/>
+  <!-- Central unified platform -->
+  <rect x="180" y="95" width="60" height="50" rx="10" fill="url(#gradP1)" opacity="0.9"/>
+  <rect x="190" y="105" width="40" height="8" rx="2" fill="white" opacity="0.3"/>
+  <rect x="190" y="118" width="30" height="8" rx="2" fill="white" opacity="0.2"/>
+  <rect x="190" y="131" width="35" height="6" rx="2" fill="white" opacity="0.15"/>
+  <!-- Output flow -->
+  <path d="M245 120 L320 120" stroke="url(#gradP2)" stroke-width="3" opacity="0.7"/>
+  <circle cx="330" cy="120" r="20" fill="url(#gradP2)" opacity="0.9"/>
+  <path d="M322 120 L330 112 L338 120 L330 128 Z" fill="white" opacity="0.8"/>
+  <!-- Decorative elements -->
+  <circle cx="120" cy="90" r="3" fill="#60a5fa" opacity="0.5"/>
+  <circle cx="140" cy="140" r="3" fill="#8b5cf6" opacity="0.5"/>
+  <circle cx="280" cy="100" r="4" fill="#06b6d4" opacity="0.4"/>
+</svg>

@@ -1,0 +1,39 @@
+<!-- Image Prompt: "Abstract illustration symbolizing onboarding and activation journeys. Connected paths, guided flows, rounded shapes, modern flat style." -->
+<svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgO" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gradO1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="gradO2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgO)"/>
+  <!-- Journey path -->
+  <path d="M50 180 Q100 180 120 140 Q140 100 180 100 Q220 100 240 130 Q260 160 300 160 Q340 160 360 120"
+        stroke="url(#gradO1)" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <!-- Journey milestones -->
+  <circle cx="50" cy="180" r="16" fill="url(#gradO2)" opacity="0.9"/>
+  <circle cx="120" cy="140" r="14" fill="url(#gradO1)" opacity="0.85"/>
+  <circle cx="180" cy="100" r="16" fill="url(#gradO2)" opacity="0.9"/>
+  <circle cx="240" cy="130" r="14" fill="url(#gradO1)" opacity="0.85"/>
+  <circle cx="300" cy="160" r="14" fill="url(#gradO2)" opacity="0.85"/>
+  <circle cx="360" cy="120" r="18" fill="url(#gradO1)" opacity="0.9"/>
+  <!-- Checkmarks/progress indicators -->
+  <path d="M45 180 L48 183 L55 176" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M115 140 L118 143 L125 136" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M175 100 L178 103 L185 96" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <!-- Star at destination -->
+  <path d="M360 112 L362 118 L368 118 L363 122 L365 128 L360 124 L355 128 L357 122 L352 118 L358 118 Z" fill="white" opacity="0.9"/>
+  <!-- Decorative floating elements -->
+  <circle cx="90" cy="70" r="4" fill="#60a5fa" opacity="0.4"/>
+  <circle cx="200" cy="60" r="5" fill="#8b5cf6" opacity="0.4"/>
+  <circle cx="320" cy="90" r="4" fill="#10b981" opacity="0.4"/>
+  <rect x="140" cy="170" width="8" height="8" rx="2" fill="#a78bfa" opacity="0.3" transform="rotate(45 144 174)"/>
+</svg>
