@@ -26,23 +26,34 @@ const caseStudiesData = [
   },
   {
     id: 1,
-    title: 'Revitalizing the Shopify Payments Lifecycle',
-    shortSummary: 'Breathing new life into Shopify Payments\' lifecycle journeys by rethinking segmentation, messaging, and experience design—leading to a measurable lift in engagement and feature adoption.',
+    title: 'Revitalising the Shopify Payments Lifecycle',
+    shortSummary: 'Redesigning the Payments lifecycle into a modular, behaviour-driven journey that guided merchants from awareness to activation, increasing trust and reducing friction at each stage.',
     image: '/case-studies/payments_lifecycle.png',
-    imageAlt: 'Abstract illustration of lifecycle marketing flows and segmentation paths.',
-    problem: 'After migrating from Marketing Cloud to an internal tool, Shopify Payments\' lifecycle journeys had remained unchanged for nearly two years. Messaging felt generic, segmentation lacked behavioral nuance, and adoption had stalled.',
+    imageAlt: 'Placeholder - Payments Lifecycle image',
+    intro: 'Shopify Payments is one of Shopify\'s highest-value products — but many merchants struggled to understand its benefits, navigate onboarding, or reach full activation. I redesigned the Payments lifecycle into a modular, behaviour-driven journey that guided merchants from awareness to activation, increasing trust and reducing friction at each stage.',
+    problem: [
+      'Merchants received one-size-fits-all messaging that didn\'t reflect readiness or compliance steps.',
+      'Core activation blockers (verification, onboarding completion, first transaction) weren\'t addressed proactively.',
+      'Activation rates plateaued due to limited behavioural segmentation.',
+      'Product teams lacked insight into lifecycle drop-off points.',
+      'Payments onboarding required high trust — and existing messaging didn\'t reinforce clarity or confidence.'
+    ],
     solution: [
-      'Full health audit across segments, geos, and journey entry conditions',
-      'Template redesign with UX/Design',
-      'Behavior-driven segmentation (international sellers, installment-eligible, new sellers)',
-      'Holdout experiment comparing legacy vs new journeys'
+      'Designed a multi-stage lifecycle guiding merchants from exploration → onboarding → verification → activation → healthy usage.',
+      'Added behaviour-led triggers for merchants who started onboarding, stalled in verification, or hadn\'t completed their first transaction.',
+      'Built dynamic content blocks adapting to payment availability, region, currency, and compliance status.',
+      'Used AI-assisted messaging optimisation for clarity and engagement improvements.',
+      'Collaborated with Product, Legal, and Risk to resolve friction points and ensure compliant communication.',
+      'Documented the lifecycle framework for ongoing Product and CRM iteration.'
     ],
     impact: [
-      '~15% lift in lifecycle engagement',
-      '~20% improvement in Shopify Payments activation',
-      'Stronger personalization through behavior-based messaging'
+      '8–12% lift in Payments onboarding completion through friction-reducing messaging.',
+      '6–10% increase in first-transaction conversion, driven by behaviour-based nudges.',
+      '~15% reduction in lifecycle drop-off, especially at onboarding → verification → activation stages.',
+      'Improved engagement metrics indicating stronger merchant trust and confidence in Payments.',
+      'More merchants achieving "healthy usage" earlier, improving long-term retention.'
     ],
-    tools: ['Segmentation', 'Lifecycle Optimization', 'Experiment Design', 'UX Collaboration']
+    tools: ['Segmentation', 'Lifecycle Optimization', 'Experiment Design', 'UX Collaboration', 'AI-assisted Messaging']
   },
   {
     id: 3,
@@ -70,40 +81,60 @@ const caseStudiesData = [
     title: 'Shopify Plus Content Syndication Nurture',
     shortSummary: 'A globally-localised nurture program for high-value Shopify Plus prospects, unlocking meaningful lift in MQL conversion across regions.',
     image: '/case-studies/plus_content_nurture.png',
-    imageAlt: 'Abstract illustration of global content distribution with region-targeted nodes.',
-    problem: 'Shopify Plus prospects entered the funnel with varied levels of product understanding, and nurture strategies differed by region. We needed a unified, personalised nurture experience for high-value C-suite and VP-level contacts.',
+    imageAlt: 'Placeholder - Plus Content Syndication Nurture image',
+    intro: 'The Content Syndication program brought in more than 100K high-value Plus leads annually, including C-suite and VP prospects. These leads were highly engaged but sat too early in the funnel to pass directly to Sales — and Shopify had no dedicated nurture experience for this segment. I led the design and execution of a unified, personalised nurture journey to maximise engagement, warm leads effectively, and better prepare them for Sales follow-up.',
+    problem: [
+      'Content Syndication generated 100K+ leads annually, but Shopify had no standalone nurture tailored to their needs.',
+      'Leads showed strong email engagement but were too high-funnel for Sales, creating a missed opportunity to warm them.',
+      'Messaging was inconsistent across regions, with no unified strategy for educating or qualifying these high-value contacts.',
+      'Sales teams lacked a predictable flow of warmed MQLs and insight into lead readiness.',
+      'Without structured nurturing, the program couldn\'t unlock the full potential of this audience.'
+    ],
     solution: [
-      'Fully translated, region-specific content',
-      'Dynamic content blocks powered by SFMC',
-      'Modular storytelling aligned to value pillars',
-      'A rigorous 50/50 holdout experiment for stat-sig measurement'
+      'Built a globally-localised nurture, fully translated and adapted for regional nuances.',
+      'Designed dynamic content blocks using SFMC to personalise proof points and case studies by region.',
+      'Created a modular storytelling framework to ensure consistency while enabling localisation.',
+      'Implemented a 50/50 holdout experiment to measure true stat-sig lift.',
+      'Partnered with Product & Performance teams to refine lifecycle logic and future V2 improvements.'
     ],
     impact: [
-      '19% stat-sig lift in MQL conversion (p = 0.03)',
-      '28% open rate, 2% CTR',
-      '~$950k projected influenced gross profit annually'
+      '19% stat-sig lift in MQL conversion (p = 0.03).',
+      '28% open rate and 2% CTR (meeting/exceeding benchmarks).',
+      '~$950K influenced gross profit annually, based on funnel projections.',
+      'Delivered 151 MQLs and 40 influenced COs from this segment.',
+      'Provided Sales with a predictable stream of warmed, high-value prospects.'
     ],
-    tools: ['Dynamic Content', 'Localisation', 'Experimentation', 'Enterprise Nurture Strategy']
+    tools: ['Dynamic Content', 'Localisation', 'Experimentation', 'Enterprise Nurture Strategy', 'SFMC']
   },
   {
     id: 5,
     title: 'Shipping Cross-Sell & Upsell Lifecycle Journeys',
     shortSummary: 'A suite of six multilingual automated journeys reaching 100K+ merchants monthly and increasing adoption of Shopify Shipping features.',
     image: '/case-studies/shipping_lifecycle.png',
-    imageAlt: 'Abstract illustration of shipping workflows and automated product movement paths.',
-    problem: 'Shipping feature adoption varied widely across merchant behaviors, and generic communication did not effectively support merchants with differing operational maturity.',
+    imageAlt: 'Placeholder - Shipping Lifecycle image',
+    intro: 'Shipping behaviours varied significantly across Shopify\'s merchant ecosystem. While some merchants quickly adopted key features, others struggled to find or understand them — limiting activation and downstream revenue. I designed and led a suite of automated lifecycle journeys that guided merchants through their ideal shipping path, personalised by behaviour, maturity, and region.',
+    problem: [
+      'Shipping feature adoption differed widely across regions and merchant types.',
+      'Merchants often discovered features unintentionally, leading to inconsistent onboarding.',
+      'Existing communications weren\'t personalised, behaviour-led, or aligned to merchant maturity.',
+      'Product teams lacked a scalable lifecycle system to drive activation consistently.',
+      'No predictable journey existed to guide new merchants through their first 30–60 days.'
+    ],
     solution: [
-      'Six automated journeys (20+ emails)',
-      'Behavior-led segmentation (new shippers, consistent shippers, high-volume, cross-border)',
-      'AMPscript/Liquid-based localisation and personalisation',
-      'Formal holdout test for the "Shipping New Sellers" flow'
+      'Built six automated journeys (20+ emails) tailored to key shipping behaviours.',
+      'Implemented behaviour-led segmentation for new users, high-volume merchants, cross-border sellers, label adopters, etc.',
+      'Added AMPscript/Liquid localisation for region and language relevance.',
+      'Collaborated with Product, UX, and Data teams to align messaging to real customer pathways.',
+      'Ran a formal holdout test on the "Shipping New Sellers" journey for true causal measurement.',
+      'Established a long-term lifecycle framework for future shipping features and experiments.'
     ],
     impact: [
-      'Reached 100K+ merchants monthly',
-      '4.31% lift in shipping label adoption (holdout tested)',
-      'Improved awareness and usage of under-utilised features'
+      'Reached 100K+ merchants monthly across the six programs.',
+      'Delivered a 4.31% lift in shipping-label adoption in holdout testing.',
+      'Increased awareness and usage of under-adopted shipping features across markets.',
+      'Equipped Product teams with a reliable lifecycle system for ongoing optimisation.'
     ],
-    tools: ['AMPscript/Liquid', 'Localisation', 'Lifecycle Architecture', 'Experimentation']
+    tools: ['AMPscript/Liquid', 'Localisation', 'Lifecycle Architecture', 'Experimentation', 'Cross-functional Collaboration']
   }
 ];
 
@@ -249,14 +280,34 @@ const CaseStudyCard = ({ caseStudy, index }) => {
                 ) : (
                   /* STANDARD BULLET LAYOUT FOR REGULAR CARDS */
                   <>
+                    {/* Intro */}
+                    {caseStudy.intro && (
+                      <div className="mb-6">
+                        <p className="text-gray-300 text-sm leading-relaxed">
+                          {caseStudy.intro}
+                        </p>
+                      </div>
+                    )}
+
                     {/* Problem */}
                     <div className="mb-5">
                       <h4 className="text-sm font-semibold text-purple-400 uppercase tracking-wider mb-2">
                         Problem
                       </h4>
-                      <p className="text-gray-300 text-sm leading-relaxed">
-                        {caseStudy.problem}
-                      </p>
+                      {Array.isArray(caseStudy.problem) ? (
+                        <ul className="space-y-2">
+                          {caseStudy.problem.map((item, i) => (
+                            <li key={i} className="text-gray-300 text-sm flex items-start">
+                              <span className="text-purple-400 mr-2 mt-1">•</span>
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="text-gray-300 text-sm leading-relaxed">
+                          {caseStudy.problem}
+                        </p>
+                      )}
                     </div>
 
                     {/* Solution */}
