@@ -58,23 +58,32 @@ const caseStudiesData = [
   {
     id: 3,
     title: 'Lifecycle Launch for Oberlo & Handshake',
-    shortSummary: 'Creating the launch strategy and lifecycle programs for Oberlo and Handshake, improving awareness, adoption, and brand alignment.',
+    shortSummary: 'Creating the end-to-end lifecycle strategy for ~500K merchants, rebuilding communications to align with Shopify\'s brand system and strengthening journeys from awareness to activation.',
     image: '/case-studies/oberlo_handshake.png',
     imageAlt: 'Abstract illustration of multi-step onboarding and activation paths connecting through progressive stages.',
-    problem: 'Both products launched without lifecycle foundations. Merchant awareness was low, branding inconsistent, and onboarding journeys nonexistent.',
+    intro: 'Oberlo and Handshake brought nearly 500,000 merchants into Shopify\'s ecosystem, but neither product launched with lifecycle foundations — meaning merchants installed the apps but often stalled immediately afterward. I created the end-to-end lifecycle strategy, rebuilt the communication experience to align with Shopify\'s brand system, and partnered with Product to strengthen merchant journeys from awareness to activation and long-term value.',
+    problem: [
+      'Combined merchant volume reached ~500K, but a large percentage stalled directly after installing the apps.',
+      'No onboarding or nurture journeys existed to guide merchants toward activation.',
+      'Email templates and messaging did not match Shopify\'s brand system, causing inconsistency and confusion.',
+      'Product awareness and value proposition were weak, limiting activation and repeat usage.',
+      'Product teams lacked a structured lifecycle path to improve install → activation → LTV performance.'
+    ],
     solution: [
-      'Launch awareness campaigns',
-      'Build foundational lifecycle journeys',
-      'Run broad messaging tests',
-      'Create a behavioral journey for Handshake (favorited items → nudge to publish)',
-      'Unify visual identity with Shopify\'s brand system'
+      'Built foundational lifecycle programs, including onboarding, activation nudges, and behavioural journeys.',
+      'Added behaviour-driven triggers such as nudges for merchants who favourited items but never published.',
+      'Conducted messaging and positioning tests to clarify product value across merchant segments.',
+      'Incrementally redesigned templates to align with Shopify\'s branding, reducing confusion and improving trust.',
+      'Partnered with Product to improve the entire merchant journey from awareness → install → activation → long-term value.',
+      'Delivered a scalable lifecycle framework used for future feature launches and experiments.'
     ],
     impact: [
-      'Clear uplift in product adoption after lifecycle rollout',
-      'Reduced confusion from unified branding',
-      'Improved conversion from browsing → publishing → selling'
+      'Increased post-install activation due to improved onboarding and targeted behavioural prompts.',
+      'Reduced merchant confusion with consistent, brand-aligned communications.',
+      'Improved funnel progression across key behaviours — browsing → favouriting → publishing → selling.',
+      'Established a long-term lifecycle foundation enabling ongoing product growth and experimentation.'
     ],
-    tools: ['Onboarding Strategy', 'Messaging Tests', 'Lifecycle Builds', 'GTM Collaboration']
+    tools: ['Onboarding Strategy', 'Messaging Tests', 'Lifecycle Builds', 'GTM Collaboration', 'Brand Alignment']
   },
   {
     id: 4,
